@@ -1,6 +1,17 @@
 # -*- coding: utf-8 -*-
 """"
-Decision Tree using SKLearn (feature split)
+Decision Tree using SKLearn
+
+Advantages:
+Easy to understand and interpret.
+Fully explainable, with a natural way to visualize the decision-making process.
+Require little data preprocessing (such as scaling, normalization, or outlier removal).
+Relatively quick to train and make predictions.
+
+Disadvantages:
+The method for building trees is greedy and may not find the globally optimal tree; it only finds a locally optimal solution at each step.
+Prone to overfitting, especially as trees become larger and more complex, making them fit the training data too closely and reducing their ability to generalize to new data.
+
 """
 
 import pandas as pd
